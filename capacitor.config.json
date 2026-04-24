@@ -2,5 +2,9 @@
   "appId": "com.textlauncher.app",
   "appName": "TextLauncher",
   "webDir": "build",
-  "bundledWebRuntime": false
+  "android": {
+    "allowMixedContent": true,
+    "overScrollMode": "never",
+    "backgroundColor": "#000000"
+  }
 }
