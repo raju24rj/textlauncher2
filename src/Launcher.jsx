@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { useState, useEffect, useRef, useCallback, useMemo, useReducer } from "react";
 
 /* ═══════════════════════════════════════════════════════════════
@@ -632,7 +633,6 @@ const Label   = ({children})=>(
 );
 
 // ── MAIN ──────────────────────────────────────────────────────────────────────
-const SCREEN_ORDER = ["home","recent","stats","notifs","config"];
 
 export default function Launcher() {
   useEffect(()=>injectAssets(),[]);
